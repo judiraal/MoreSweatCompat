@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.judiraal.moresweatcompat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "moresweatcompat.mixin-refmap.json",
+  "mixins": [
+    "mekanism.EnvironmentMultiblockDataMixin",
+    "mekanism.EnvironmentTileEntityMixin",
+    "mekanism.HeatNetworkMixin",
+    "mekanism.ThermodynamicConductorMixin"
+  ],
+  "minVersion": "0.8",
+  "plugin": "com.judiraal.moresweatcompat.mods.ConditionalMixin"
+}
