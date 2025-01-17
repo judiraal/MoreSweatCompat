@@ -1,6 +1,5 @@
 package com.judiraal.moresweatcompat.mods;
 
-import com.google.common.base.Splitter;
 import net.neoforged.fml.loading.FMLLoader;
 import org.objectweb.asm.tree.ClassNode;
 import org.spongepowered.asm.mixin.extensibility.IMixinConfigPlugin;
