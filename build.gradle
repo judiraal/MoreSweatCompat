@@ -80,8 +80,11 @@ dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
     implementation "curse.maven:cold-sweat-506194:6176789"
     implementation "curse.maven:mekanism-268560:6242484"
-    implementation "curse.maven:mekanism-generators-268566:6018309"
+    implementation "curse.maven:mekanism-generators-268566:6242487"
 
+    localRuntime "curse.maven:architectury-api-419699:5786327"
+    localRuntime "curse.maven:cloth-config-348521:5729127"
+    localRuntime "curse.maven:memorysweep-784959:5943438"
     localRuntime "curse.maven:emi-580555:6075440"
 }
 
