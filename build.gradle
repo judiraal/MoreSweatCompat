@@ -78,32 +78,11 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
-    implementation "curse.maven:cold-sweat-506194:6073797"
-    implementation "curse.maven:mekanism-268560:6018306"
+    implementation "curse.maven:cold-sweat-506194:6176789"
+    implementation "curse.maven:mekanism-268560:6242484"
     implementation "curse.maven:mekanism-generators-268566:6018309"
 
-    localRuntime "curse.maven:glitchcore-955399:5660740"
-    localRuntime "curse.maven:serene-seasons-291874:5753503"
-    localRuntime "curse.maven:cristel-lib-856996:5692888"
-    localRuntime "curse.maven:emi-580555:5872513"
-    localRuntime "curse.maven:ferritecore-429235:5434178"
-    localRuntime "curse.maven:jade-324717:6011258"
-    localRuntime "curse.maven:modernfix-790626:6025615"
-    localRuntime "curse.maven:terralith-513688:6090387"
-    localRuntime "curse.maven:xaeros-minimap-263420:6012855"
-    localRuntime "curse.maven:xaeros-world-map-317780:5987169"
-    localRuntime "maven.modrinth:immediatelyfast:1.3.3+1.21.1-neoforge"
-    localRuntime "maven.modrinth:incendium:5.4.4"
-    localRuntime "maven.modrinth:kiwi:15.3.1+neoforge"
-    localRuntime "maven.modrinth:lithium:mc1.21.1-0.14.5-neoforge"
-    localRuntime "maven.modrinth:snow-under-trees:91B2H9bj"
-    localRuntime "maven.modrinth:sodium:mc1.21.1-0.6.5-neoforge"
-    localRuntime "maven.modrinth:stellarity:3.0.5+mod"
-    localRuntime "maven.modrinth:dynamicsurroundingsfabric:aFsN201L"
-    localRuntime "maven.modrinth:architectury-api:13.0.8+neoforge"
-    localRuntime "maven.modrinth:endrem:aqYxfNAS"
-    localRuntime "maven.modrinth:immersive-portals-neoforge:6.0.6"
-    localRuntime "maven.modrinth:cloth-config:15.0.140+neoforge"
+    localRuntime "curse.maven:emi-580555:6075440"
 }
 
 tasks.withType(ProcessResources).configureEach {

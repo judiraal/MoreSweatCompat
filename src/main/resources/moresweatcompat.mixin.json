@@ -4,6 +4,7 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "moresweatcompat.mixin-refmap.json",
   "mixins": [
+    "cold_sweat.WorldHelperAccessor",
     "mekanism.EnvironmentMultiblockDataMixin",
     "mekanism.EnvironmentTileEntityMixin",
     "mekanism.HeatNetworkMixin",
