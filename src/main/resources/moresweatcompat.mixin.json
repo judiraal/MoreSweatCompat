@@ -8,7 +8,9 @@
     "mekanism.EnvironmentMultiblockDataMixin",
     "mekanism.EnvironmentTileEntityMixin",
     "mekanism.HeatNetworkMixin",
-    "mekanism.ThermodynamicConductorMixin"
+    "mekanism.ThermodynamicConductorMixin",
+    "curios.CurioInventoryCapabilityMixin",
+    "irons_spellbooks.InvisibilityRingMixin"
   ],
   "minVersion": "0.8",
   "plugin": "com.judiraal.moresweatcompat.mods.ConditionalMixin"

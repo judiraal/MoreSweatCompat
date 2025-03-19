@@ -29,13 +29,13 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="mekanism"
 type="optional"
-versionRange="[10.7.8, )"
+versionRange="[10.7.12, )"
 ordering="AFTER"
 side="BOTH"
 
 [[dependencies.${mod_id}]]
 modId="cold_sweat"
 type="required"
-versionRange="[2.3.10, )"
+versionRange="[2.3.12, )"
 ordering="AFTER"
 side="BOTH"
