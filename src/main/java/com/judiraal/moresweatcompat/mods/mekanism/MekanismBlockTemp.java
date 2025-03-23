@@ -13,7 +13,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class MekanismBlockTemp extends BlockTemp {
     public MekanismBlockTemp() {
-        super(0.0F, 21.5F, -Double.MAX_VALUE, 21.5F, 7.0F, true,
+        super(0.0, 21.5, Double.NEGATIVE_INFINITY, 21.5, 7, true,
                 MekanismBlocks.BASIC_THERMODYNAMIC_CONDUCTOR.getDelegate().value(),
                 MekanismBlocks.ADVANCED_THERMODYNAMIC_CONDUCTOR.getDelegate().value(),
                 MekanismBlocks.ELITE_THERMODYNAMIC_CONDUCTOR.getDelegate().value(),

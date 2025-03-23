@@ -4,13 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "refmap": "moresweatcompat.mixin-refmap.json",
   "mixins": [
-    "cold_sweat.WorldHelperAccessor",
     "mekanism.EnvironmentMultiblockDataMixin",
     "mekanism.EnvironmentTileEntityMixin",
     "mekanism.HeatNetworkMixin",
-    "mekanism.ThermodynamicConductorMixin",
-    "curios.CurioInventoryCapabilityMixin",
-    "irons_spellbooks.InvisibilityRingMixin"
+    "mekanism.ThermodynamicConductorMixin"
   ],
   "minVersion": "0.8",
   "plugin": "com.judiraal.moresweatcompat.mods.ConditionalMixin"
